@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: Helvetica-bold;
+}
+
+button {
+	border: none;
+}
+
+input,
+textarea {
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+@font-face {
+	font-family: "Helvetica-Bold";
+	src: url("../font/helvetica-light.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "BM Yeonsung-Regular";
+	src: url("../font/YeonSung-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+a:hover {
+	cursor: pointer;
+}
+
+.hide{
+	display: none;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.align-items-end{
+	align-items: flex-end;
+}
+
+.align-items-center{
+	align-items: center;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.justify-space-between{
+	justify-content: space-between;
+}
+
+.div-center{
+	text-align: center;
+}
+
+.top12{
+	margin-top: 12px;
+}
+
+.top24{
+	margin-top: 24px;
+}
+
+.top36{
+	margin-top: 36px;
+}
+
+.top48{
+	margin-top: 48px;
+}
+.top60{
+	margin-top: 60px;
+}
+.top72{
+	margin-top: 72px;
+}
+.top84{
+	margin-top: 84px;
+}
+.top96{
+	margin-top: 96px;
+}
+.top108{
+	margin-top: 108px;
+}
+.left8{
+	margin-left: 8px;
+}
+.left12{
+	margin-left: 12px;
+}
+
+.left24{
+	margin-left: 24px;
+}
+
+.left36{
+	margin-left: 36px;
+}
+
+.left48{
+	margin-left: 48px;
+}
+
+.left60{
+	margin-left: 60px;
+}
+
+.left72{
+	margin-left: 72px;
+}
+
+.left84{
+	margin-left: 84px;
+}
+
+.left96{
+	margin-left: 96px;
+}
+.left108{
+	margin-left: 108px;
+}
+.left140{
+	margin-left: 140px;
+}
+.left180{
+	margin-left: 180px;
+}
+.size12{
+	font-size: 12px;
+}
+.size16{
+	font-size: 16px;
+}
+.size18{
+	font-size: 18px;
+}
+.size20{
+	font-size: 20px;
+}
+.size22{
+	font-size: 22px;
+}
+.size24{
+	font-size: 24px;
+}
+
+.size28{
+	font-size: 28px;
+}
+
+.size30{
+	font-size: 30px;
+}
+
+.size32{
+	font-size: 32px;
+}
+
+.size36{
+	font-size: 36px;
+}
+.size48{
+	font-size: 48px;
+}
+.size60{
+	font-size: 60px;
+}
+
+.line-height0{
+	line-height: 0px;
+}
+.weight500{
+	font-weight: 500;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.div-right {
+	text-align: right;
+}
+.width20{
+	width: 20px;
+}
+
+.width24{
+	width: 24px;
+	height: 24px;
+}
+
+.width36{
+	width: 36px;
+	height: 36px;
+}
+.width200{
+	width: 200px;
+}
+
+.width220{
+	width: 220px;
+}
+
+.width340{
+	width: 300px;
+}
+
+.width600{
+	width: 600px;
+}
+
+.width644{
+	width: 644px;
+}
+
+.width680{
+	width: 680px;
+}
+
+.width700{
+	width: 700px;
+}
+
+.center{
+	width: 1440px;
+	margin:  0 auto;
+}
+
+.color1{
+	color: #793D3B;
+}
+.color2{
+	color: #000;
+}
+
+.color3{
+	color: #707070;
+}
+
+.color4{
+	color: #9F5E5D;
+}
+
+.font{
+	font-size: 22px;
+	color: #000;
+}
+
+.bottom20{
+	margin-bottom: 20px;
+}
+
+
+.bottom40{
+	margin-bottom: 40px;
+}
+
+.top160{
+	margin-top: 160px;
+}
+
+.flex1{
+	flex: 1;
+}

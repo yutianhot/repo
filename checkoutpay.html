@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href="css/respond.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="my-wrap">
+			<div class="flex-column top">
+				<img  src="images/logo2.png" class="logo"/>
+				<div class="flex progress">
+					<div class="current-status">Cart</div>
+					<img  class="left48" src="images/icon-right-white.png"/>
+					<div  class="left48 current-status">Information</div>
+					<img class="left48"   src="images/icon-right-white.png"/>
+					<div  class="left48">Payment</div>
+				</div>
+			</div>
+			<div class="checkout-wrap">
+				<div class="flex checkout center">
+					<div class="flex-column left">
+						<div class="form-contact width700">
+							<div class="flex align-items-center item justify-space-between">
+								<div>
+									<span class="color3">Contact</span>
+									<span class="left24">xxxxx@gmail.com</span>
+								</div>
+								<span class="color4">Change</span>
+							</div>
+							<div class="hr width700"></div>
+							<div class="flex align-items-center item justify-space-between">
+								<div>
+									<span class="color3">Ship to</span>
+									<span class="left24">xx road, Brisbane QLD 0000,Australia</span>
+								</div>
+								<span class="color4">Change</span>
+							</div>
+						</div>
+						<p class="top48 size24 width700">Shipping address</p>
+						<div class="form-contact width700 top24">
+							<div class="flex align-items-center item justify-space-between">
+								<div class="flex">
+									<input  type="radio" class="radio_type" name="address" checked value="standard_shipping"/>				
+									 <span class="left24">Standard Shipping</span>
+								</div>
+								<span>$9.95</span>
+							</div>
+							<div class="hr width700"></div>
+							<div class="flex align-items-center express item justify-space-between">
+								<div class="flex">
+									<input  type="radio" class="radio_type"  name="address"  value="Express Postage (Only available to capital cities, Ie Sydney, Brisbane, Adelaide and Perth)"/>
+									<span class="left24">Express Postage (Only available to capital <br> cities, Ie Sydney, Brisbane, Adelaide and Perth)</span>
+								</div>
+								<span>$19.95</span>
+							</div>
+						</div>
+						<p class="top48 size24 width700">Payment</p>
+						<p class="size22 top24 width700">All transactions are secure and encrypted.</p>
+						<div class="top24 width700 form-contact">
+							<div class="align-items-center justify-space-between credit-card item flex">
+								<div class="flex align-items-center">
+									<div class="circle"></div>
+									<span class="left24 size22">Credit card</span>
+								</div>
+								<div class="flex app align-items-center">
+									<div class="app-item">visa</div>
+									<div class="app-item">V</div>
+									<div class="app-item">pp</div>
+									<div class="app-item">fbpay</div>
+									<div class="app-item">od</div>
+									<div class="left12 color3 size18">and more…</div>
+								</div>
+							</div>
+							<div class="hr"></div>
+							<div class="flex top24 form-item-padding align-items-center">
+								<input  type="text" id="card_number" placeholder="Card number" class="checkout-form-item width644"/>
+								<img  src="images/awesome-lock.png" class="lock"/>
+							</div>
+							<div class="flex top24 form-item-padding align-items-center">
+								<input  type="text" id="card_name" placeholder="Name on card" class="checkout-form-item width644"/>
+							</div>
+							<div class="flex top24 form-item-padding align-items-center justify-space-between">
+								<input  type="text" id="expiration_date" placeholder="Expiration date(MM/YY)" class="checkout-form-item width340"/>
+								<input  type="text" id="security_code" placeholder="Security code" class="checkout-form-item width340"/>
+								<img  src="images/awesome-question-circle.png" class="lock"/>
+							</div>
+							<div class="hr top24"></div>
+							<div class="flex paypal-form align-items-center">
+								<div class="circle"></div>
+								<img  src="images/payment-paypal.png" class="left12"/>
+							</div>
+						</div>
+						<p class="top48 size24 width700">Payment</p>
+						<p class="size22 top24 width700">Enter the address that matches your card or payment method.</p>
+						<div class="top36 width700 form-input flex align-items-center width700 flex justify-space-between">
+							<input type="text" id="country" placeholder="Country/Region" class="checkout-form-item"/>
+							<div class="icon-down">
+								<img  src="images/icon-arrow-down.png"/>
+							</div>
+						</div>
+						<div class="flex top36 width700 fullname">
+							<input  type="text" id="first_name" placeholder="First name" class="checkout-form-item Firstname"/>
+							<input  type="text" id="last_name" placeholder="Last name" class="checkout-form-item Lastname"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="Address" id="address" class="checkout-form-item"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="Apartment, suite, etc. (optional)" class="checkout-form-item"/>
+						</div>
+						<div class="top36 flex align-items-center justify-space-between width700">
+							<input placeholder="City" id="city" class="checkout-form-item width700"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="Phone" id="phone" class="checkout-form-item"/>
+						</div>
+						<div class="top48 flex submit-list width700">
+							<button class="continue-btn" onclick="submit()">Pay Now</button>
+							<a href="checkoutinfo.html">
+								<button class="return-btn">Return to information</button>
+							</a>
+						</div>
+						<div class="top48 hr width700"></div>
+					</div>
+					<div class="flex-column right">
+						<div class="flex top24 pro-info width600">
+							<div class="flex">
+								<img  src="./images/img4.png"/>
+								<p class="left12 size22 top12">Terraforming Mars<br>Regular price</p>
+							</div>
+							<span class="size28">$69.99</span>
+						</div>
+						<div class="top72 flex width600 apply-wrap">
+							<input  type="text" placeholder="Gift card or discount code" class="apply checkout-form-item"/>
+							<button>Apply</button>
+						</div>
+						<div class="top72 width600 size22 justify-space-between flex">
+							<span>Subtotal</span>
+							<span>$69.99</span>
+						</div>
+						<div class="top36 width600 size22 justify-space-between flex">
+							<div class="flex align-items-center">
+								<span>Shipping</span>
+								<img class="left12 width24" src="images/awesome-question-circle.png"/>
+							</div>
+							<span>$9.95</span>
+						</div>
+						<div class="top36 width600 size22 justify-space-between flex">
+							<div class="flex align-items-center">
+								<span>Taxes</span>
+							</div>
+							<span>$6.95</span>
+						</div>
+						<div class="top72 width600 size30 justify-space-between flex">
+							<span>Total</span>
+							<span>USD $86.89</span>
+						</div>
+					</div>
+				</div>
+				<div class="top96">
+					<div class="flex center check-link">
+						<a>Refund policy </a>
+						<a>Shipping policy </a>
+						<a>Privacy policy </a>
+						<a>Terms of service</a>         
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="./js/copay.js"></script>
+	</body>
+</html>
+

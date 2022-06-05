@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href="css/respond.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+        <div class="my-wrap">
+			<div class="flex-column top">
+				<img  src="images/logo2.png" class="logo"/>
+				<div class="flex progress">
+					<div class="current-status">Cart</div>
+					<img  class="left48" src="images/icon-right-white.png"/>
+					<div  class="left48">Information</div>
+					<img class="left48"  src="images/icon-right-black.png"/>
+					<div  class="left48">Payment</div>
+				</div>
+			</div>
+            <div class="checkout-wrap">
+				<div class="flex checkout center">
+					<div class="flex-column left">
+						<p class="size24">Express Checkout</p>
+						<div class="top24 paypal-wrap">
+							<img  src="./images/payment-paypal.png"/>
+						</div>
+						<p class="top84 size24">OR</p>
+						<p class="size24 top36 width700">Contact information</p>
+						<div class="top36 width700">
+							<input placeholder="Email" id="email" class="checkout-form-item"/>
+						</div>
+						<div class="flex align-items-center agree top36 width700">
+							<input type="checkbox" id="checkbox" checked/>
+							<p class="left24 size18">Email me with news and offers</p>
+						</div>
+						<p class="size24 top36 width700">Delivery method</p>
+						<div class="top36 width700 way">
+							<div class="way-item flex align-items-center">
+								<input id="delivery_method1" class="radio_type" value="ship" type="radio" name="delivery_method" checked />
+								<label for="delivery_method1" class="flex">
+									<img  class="left24" src="images/car.png" />
+									<p class="left24 size22">Ship</p>
+								</label>
+							</div>
+							<div class="way-item top48 flex align-items-center">
+								<input id="delivery_method2" class="radio_type" value="pick_up" type="radio" name="delivery_method"/>							
+								<label for="delivery_method2" class="flex">
+									<img  class="left24" src="images/awesome-store.png"/>
+									<p class="left24 size22">Pick up</p>
+								</label>
+							</div>
+						</div>
+						<p class="size24 top48 width700">Shipping address</p>
+						<div class="flex top36 width700 fullname">
+							<input  type="text" id="first_name" placeholder="First name" class="checkout-form-item Firstname"/>
+							<input  type="text" id="last_name" placeholder="Last name" class="checkout-form-item Lastname"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="Address" id="address" class="checkout-form-item"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="Apartment, suite, etc. (optional)" class="checkout-form-item"/>
+						</div>
+						<div class="top36 width700">
+							<input placeholder="City" id="city" class="checkout-form-item"/>
+						</div>
+					<div class="form-selector top36 flex width700">
+						<div class="align-items-center flex">
+							<select class="select-item" id="country">
+								<option value="Australia">Australia</option>
+								<option value="Austria">Austria</option>
+								<option value="China">China</option>
+								<option value="Canda">Canda</option>
+								<option value="United States">United States</option>
+							</select>
+						</div>
+						<div class="align-items-center flex">
+							<select class="select-item" id="state">
+								<option value="NSW">NSW</option>
+								<option value="QLD">QLD</option>
+								<option value="VIC">VIC</option>
+								<option value="SA">SA</option>
+								<option value="TAS">TAS</option>
+							</select>
+						</div>
+						<div class="flex">
+							<input type="text" id="zip_code" placeholder="Zip code" class="checkout-form-items width220"/>
+						</div>
+					</div>
+					<div class="top36 width700">
+						<input placeholder="Phone" id="phone" class="checkout-form-item"/>
+					</div>
+					<div class="top48 flex submit-list width700">
+						<button class="continue-btn" onclick="submit()">Continue to shipping</button>
+						<a href="shoppingcart.html">
+							<button class="return-btn">Return to cart</button>	
+						</a>
+					</div>
+				</div>
+				<div class="flex-column right">
+					<div class="flex top24 pro-info width600">
+						<div class="flex">
+							<img  src="./images/img4.png"/>
+							<p class="left12 size22 top12">Terraforming Mars<br>Regular price</p>
+						</div>
+						<span class="size28">$69.99</span>
+					</div>
+					<div class="top72 flex width600 apply-wrap">
+						<input  type="text" placeholder="Gift card or discount code" class="apply checkout-form-item"/>
+						<button>Apply</button>
+					</div>
+					<div class="top72 width600 size22 justify-space-between flex">
+						<span>Subtotal</span>
+						<span>$69.99</span>
+					</div>
+					<div class="top36 width600 size22 justify-space-between flex">
+						<div class="flex align-items-center">
+							<span>Shipping</span>
+							<img class="left12 width24" src="images/awesome-question-circle.png"/>
+						</div>
+						<span>Calculated at next step</span>
+					</div>
+					<div class="top72 width600 size30 justify-space-between flex">
+						<span>Total</span>
+						<span>USD $69.99</span>
+					</div>
+				</div>
+			</div>
+			<div class="top96">
+				<div class="flex center check-link">
+					<a>Refund policy </a>
+					<a>Shipping policy </a>
+					<a>Privacy policy </a>
+					<a>Terms of service</a>         
+				</div>
+			</div>		
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/coinfo.js"></script>
+</body>
+</html>
+								
+
+
+
+                        
